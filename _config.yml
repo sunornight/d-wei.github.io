@@ -1,0 +1,23 @@
+# Site settings
+name: 白天黑夜的博客
+email: 1039192795@qq.com
+author: d-w
+baseurl: ""  #根目录
+description: 假如生活欺骗了你，不要悲伤，不要哭泣。
+motto: 假如生活欺骗了你，不要悲伤，不要哭泣。
+#motto: 如果生活欺骗了你，不要悲伤，不要哭泣。
+banner: Don’t forget the things you once you owned. Treasure the things you can’t get. 
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+excerpt_separator:  '<!-- more -->' #文章摘要
+paginate: 8
+paginate_path: "page:num"
+plugins: [jekyll-paginate]
+github_username: sunornight
+highlighter: rouge
+markdown: kramdown
+FB:
+  comments :
+    provider : disqus
+    disqus :
+        short_name : sunornight
